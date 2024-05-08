@@ -21,8 +21,7 @@ public class NewMakeMytrip {
         mobileInput.sendKeys("8299309167");
 
         // Click the close button
-        WebElement closeButton = driver.findElement(By.className("commonModal__close")); // Close button class name
-        closeButton.click();
+        WebElement closeButton = driver.findElement(By.className("commonModal__close"));
 
 //        WebElement continueButton = driver.findElement(By.xpath("//button[@class='capText font16']\""));
 //        continueButton.click();
