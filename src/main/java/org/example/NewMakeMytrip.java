@@ -31,10 +31,10 @@ public class NewMakeMytrip {
 //        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
 //        WebElement continueButton = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@class='capText font16']")));
 //
-//        // Click on continue button
+        // Click on continue button
 //        continueButton.click();
 //
-//        // Click on continue button
+        // Click on continue button
 //        WebElement continueButton = driver.findElement(By.xpath("//*[@id=\"SW\"]/div[1]/div[2]/div[2]/div/section/form/div[2]/button/span"));
 //        continueButton.click();
 
@@ -60,7 +60,7 @@ public class NewMakeMytrip {
         WebElement toInput = driver.findElement(By.className("fsw_inputField lineHeight36 latoBlack font30"));
         toInput.sendKeys("Goa");
 
-//        // Select the first option from the auto-suggestion dropdown
+        // Select the first option from the auto-suggestion dropdown
 //        WebElement toOption = driver.findElement(By.xpath("//ul[@id='react-autowhatever-1']/li[1]"));
 //        toOption.click();
 
